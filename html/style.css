@@ -246,6 +246,7 @@ h5 {
 .box {
 	background:#fff;
 	width:100%;
+	height:250px;
 }
 
 .box.alt1 {
@@ -466,8 +467,8 @@ h5 {
 			}
 
 #slider {
-	height:194px;
-	background:url(images/slider-bg.gif) left top repeat-x;
+	height:280px;
+	background:url(images/slider-bg.jpg) left top repeat-x;
 	position:relative;
 }
 	#slider .prevButton {
@@ -483,7 +484,7 @@ h5 {
 	#slider dl {
 		padding:0 0 0 4px;
 		background:url(images/slider-right.gif) no-repeat right top;
-		height:194px;
+		height:230px;
 	}
 	
 		#slider dl dt {
@@ -503,7 +504,7 @@ h5 {
 		padding:22px 0 0 0;
 	}
 
-.list1 li { 
+.list1 li { slider
 	border-bottom:1px dotted #848484;
 	font-size:14px;
 	background:url(images/arrow2.gif) no-repeat left 4px;
@@ -518,7 +519,7 @@ h5 {
 		color:#ba1c1c;
 		text-decoration:none;
 	}
-	.list1 li a:hover {
+	.list1 li a:hover {slider
 		color:#000;
 	}
 	
