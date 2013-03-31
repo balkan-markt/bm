@@ -72,6 +72,29 @@ type="text/javascript"></script>
 						onTouch: true
 					}
 				});
+
+				$("#foo3").carouFredSel({
+					circular: true,
+					infinite: true,
+					auto 	: {
+						timeoutDuration : 15000,
+						pauseOnHover : true
+					},
+					prev	: {	
+						button	: "#foo3_prev",
+						key		: "left"
+					},
+					next	: { 
+						button	: "#foo3_next",
+						key		: "right"
+					},
+					pagination	: "#foo3_pag", 
+					mousewheel: true,
+					swipe: {
+						onMouse: true,
+						onTouch: true
+					}
+				});
 			});
 		</script>
     <script type="text/javascript">
@@ -98,11 +121,11 @@ type="text/javascript"></script>
                     alt="" /></a></div>
               <ul class="nav">
                 <li class="last"><a href="anfahrt.html">Anfahrt</a></li>
-                <li><a href="impressum.html">Impressum</a></li>
+                <li><a href="impressum.html" class="current">Impressum</a></li>
                 <li><a href="index.html">Kategorien</a></li>
                 <li><a href="index.html">Lieferung</a></li>
                 <li><a href="index.html">Sonderangebote</a></li>
-                <li><a class="current" href="index.html">Online Einkaufen</a></li>
+                <li><a href="index.html">Online Einkaufen</a></li>
               </ul>
             </div>
             <ul class="top-links">
@@ -112,7 +135,7 @@ type="text/javascript"></script>
             </ul>
           </div>
           <div class="main-banner">
-            <div class="inner"> 
+            <div class="inner">
               <div class="wrapper">
                 <ul class="sm-banners">
                   <li><a href="#"><img src="images/sm-banner1.jpg" alt="" /></a></li>
@@ -176,7 +199,7 @@ type="text/javascript"></script>
           </div>
         </div>
         <!-- content -->
-        <div id="content">
+        <div id="content"> 
           <div class="wrapper line-ver">
             <div class="col-1 indent">
               <h3>Kategorien:</h3>
@@ -197,35 +220,37 @@ type="text/javascript"></script>
               <div class="alignright"><a class="link1" href="#">weiter lesen</a></div>
             </div>
             <div class="col-2 indent">
-              <h2>Letzte Nachrichten</h2>
-              <h5>28.03.2013</h5>
-              <h4>Liebe Kunden, jetzt ist es klar, dass wir am Karsamstag
-                (30.03.2012) öffnen dürfen und unsere Öffnungszeiten sind ab 10
-                Uhr bis 18 Uhr.</h4>
-              <h5>28.03.2013</h5>
-              <h4>Liebe Freunde, über Ostern bleiben leider unsere Türe
-                geschlossen. Wir überprüfen es ob wir am
-                Ostersamstag(30.03.2013) öffnen dürfen. Wir wünschen euch schöne
-                Osterfeiertage.</h4>
-              <h5>01.03.2013</h5>
-              <h4>Liebe Freunde, ab sofort werden bei uns EC Karten (Girocard)
-                als Zahlungsmittel akzeptiert. Wir freuen uns auf euren Besuch.</h4>
-              <h5>19.02.2013</h5>
-              <h4>Ab Samstag 23.02.2013 gibt es bei uns auch handgemachte
-                (Unikate) Martenichki. Mehr Info und Bilder <a href="http://www.dddd.de/HTML/MARTENIZA.html">hier</a>.</h4>
-              <h5>08.02.2013</h5>
-              <h4>Die Bulgarische Schule Frankfurt feiert den Nationalfeiertag
-                Bulgariens am 03.03.2913. Mehr Info <a href="http://www.bgschule-frankfurt.de/2013/1244">hier</a>.</h4>
-              <h5>31.01.2013</h5>
-              <h4>Die kleine Lieferung ist da! Sofort stehen zur Verfügung Boza,
-                Banica, Kebapcheta, Kjufteta, Ljutenica, Sudjuk, Krenvirschi und
-                jede Menge Süßigkeiten :-) Die Große Lieferung folgt.</h4>
-              <h5>04.01.2013</h5>
-              <h4>Heute 04.01.2013 haben wir aus persönlichen Gründen zu. Morgen
-                05.01.2013 sind unsere Öffnungszeiten von 10h bis 18h.</h4>
-              <h5>18.12.2012</h5>
-              <h4>Am 21.12.2012 Öffnen unsere Türen. Öffnungszeiten: Montag bis
-                Samstag 9:00 Uhr bis 20:00 Uhr.</h4>
+              <div class="image_carousel">
+                <div id="foo3"> <img width="280" height="280" src="images/imp1.jpg"
+                    alt="1" /> <img width="280" height="280" src="images/imp2.jpg"
+                    alt="2" /> <img width="280" height="280" src="images/imp3.jpg"
+                    alt="3" /> <img width="280" height="280" src="images/imp4.jpg"
+                    alt="4" /> <img width="280" height="280" src="images/imp5.jpg"
+                    alt="5" /> <img width="280" height="280" src="images/imp6.jpg"
+                    alt="6" /> <img width="280" height="280" src="images/imp7.jpg"
+                    alt="7" /> <img width="280" height="280" src="images/imp8.jpg"
+                    alt="8" /> <img width="280" height="280" src="images/imp9.jpg"
+                    alt="9" /> <img width="280" height="280" src="images/imp10.jpg"
+                    alt="10" /> <img width="280" height="280" src="images/imp11.jpg"
+                    alt="11" /> <img width="280" height="280" src="images/imp12.jpg"
+                    alt="12" /> <img width="280" height="280" src="images/imp13.jpg"
+                    alt="13" /> <img width="280" height="280" src="images/imp14.jpg"
+                    alt="14" /> <img width="280" height="280" src="images/imp15.jpg"
+                    alt="15" /> <img width="280" height="280" src="images/imp16.jpg"
+                    alt="16" /> <img width="280" height="280" src="images/imp17.jpg"
+                    alt="17" /> <img width="280" height="280" src="images/imp18.jpg"
+                    alt="18" /> <img width="280" height="280" src="images/imp19.jpg"
+                    alt="19" /> <img width="280" height="280" src="images/imp20.jpg"
+                    alt="20" /> <img width="280" height="280" src="images/imp21.jpg"
+                    alt="21" /> <img width="280" height="280" src="images/imp22.jpg"
+                    alt="22" /> <img width="280" height="280" src="images/imp23.jpg"
+                    alt="23" /> <img width="280" height="280" src="images/imp24.jpg"
+                    alt="24" /> </div>
+                <div class="clearfix"></div>
+                <a href="#" id="foo3_prev" class="prev"><span>prev</span></a> <a
+                  href="#" id="foo3_next" class="next"><span>next</span></a>
+                <div id="foo3_pag" class="pagination"></div>
+              </div>
             </div>
             <div class="col-3">
               <!-- extra-banner begin -->
@@ -256,6 +281,7 @@ type="text/javascript"></script>
           </div>
         </div>
         <!-- footer -->
+        <div class="indent">
         <script type="text/javascript"><!--
           google_ad_client = "ca-pub-0114662436966236";
           /* bmLinkBlock_728x15 */
@@ -265,15 +291,16 @@ type="text/javascript"></script>
           //-->
         </script>
         <script src="http://pagead2.googlesyndication.com/pagead/show_ads.js" type="text/javascript">
-        </script> 
+        </script>
+        </div>
         <div id="footer">
           <div class="indent">
             <ul class="nav">
-              <li><a class="current" href="index.html">Online Einkaufen</a>|</li>
+              <li><a href="index.html">Online Einkaufen</a>|</li>
               <li><a href="index.html">Sonderangebote</a>|</li>
               <li><a href="index.html">Lieferung</a>|</li>
               <li><a href="index.html">Kategorien</a>|</li>
-              <li><a href="impressum.html">Impressum</a>|</li>
+              <li><a class="current" href="impressum.html" class="current">Impressum</a>|</li>
               <li><a href="anfahrt.html">Anfahrt</a></li>
               |
               <li><a href="links.html">Links</a></li>
