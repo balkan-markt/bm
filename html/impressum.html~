@@ -225,12 +225,11 @@ type="text/javascript"></script>
             <div class="col-2 indent">
               <div class="image_carousel">
                 <div id="foo3"> 
-                  <a href="images/imp1.jpg" rel="lightbox"><img width="280" height="280" src="images/imp1.jpg" alt="1" /></a>
+                  <img width="280" height="280" src="images/imp1.jpg" alt="1" /> 
 		  <img width="280" height="280" src="images/imp2.jpg" alt="2" /> 
-		  <img width="280"
-                    height="280" src="images/imp3.jpg" alt="3" /> <img width="280"
-                    height="280" src="images/imp4.jpg" alt="4" /> <img width="280"
-                    height="280" src="images/imp5.jpg" alt="5" /> <img width="280"
+		  <img width="280" height="280" src="images/imp3.jpg" alt="3" /> 
+		  <img width="280" height="280" src="images/imp4.jpg" alt="4" /> 
+		  <img width="280" height="280" src="images/imp5.jpg" alt="5" /> <img width="280"
                     height="280" src="images/imp6.jpg" alt="6" /> <img width="280"
                     height="280" src="images/imp7.jpg" alt="7" /> <img width="280"
                     height="280" src="images/imp8.jpg" alt="8" /> <img width="280"
